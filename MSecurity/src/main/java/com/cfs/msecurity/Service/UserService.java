@@ -25,7 +25,7 @@ public class UserService {
 
     private PasswordEncoder encoder;
 
-    public String saveUsers(List<UserRequest> usersRequest) {
+    public void saveUsers(List<UserRequest> usersRequest) {
         for (UserRequest req :  usersRequest) {
             AppUser user = new AppUser();
             user.setUsername(req.getUsername());
@@ -33,7 +33,7 @@ public class UserService {
             user.setEnabled(true);
             Set<Roles> roleset = new HashSet<>();
             for (String roleName : req.getRoles() ) {
-                Roles role = roleRepo.findByUsername(roleName)
+                Roles role = roleRepo.rolename(roleName)
                         .orElseGet(()->{
                            Roles newrole = new Roles();
                            newrole.setRolename(roleName);
@@ -46,7 +46,6 @@ public class UserService {
             userRepo.save(user);
         }
 
-        return null;
     }
 
 
