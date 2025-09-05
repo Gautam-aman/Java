@@ -1,4 +1,9 @@
 package com.cfs.mysqlsecurity.Repo;
 
-public class UserRepo {
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepo {
+
 }
