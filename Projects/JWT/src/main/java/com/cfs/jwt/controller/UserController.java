@@ -1,17 +1,22 @@
 package com.cfs.jwt.controller;
 
 
+import com.cfs.jwt.entity.AuthRequest;
+import com.cfs.jwt.entity.UserInfo;
+import com.cfs.jwt.service.JwtService;
+import com.cfs.jwt.service.UserInfoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor
 public class UserController {
-    private UserInfo service;
+    private UserInfoService service;
     private JwtService jwtService;
     private AuthenticationManager authenticationManager;
 
@@ -22,7 +27,7 @@ public class UserController {
 
     @PostMapping("/addnewuser")
     public String addNewUser(@RequestBody UserInfo userInfo){
-        return service.adduser(userInfo);
+        return service.addUser(userInfo);
     }
 
     @PostMapping("/generatetoken")

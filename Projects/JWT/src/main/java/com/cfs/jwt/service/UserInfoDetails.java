@@ -1,6 +1,7 @@
+package com.cfs.jwt.service;
 
 
-
+import com.cfs.jwt.entity.UserInfo;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -11,7 +12,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class UserInfoDetails implements UserDetails {
+public abstract class UserInfoDetails implements UserDetails {
 
     private String username; // Changed from 'name' to 'email' for clarity
     private String password;

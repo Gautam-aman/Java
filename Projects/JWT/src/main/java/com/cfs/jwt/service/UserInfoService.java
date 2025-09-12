@@ -1,11 +1,16 @@
 package com.cfs.jwt.service;
 
 import com.cfs.jwt.Repo.UserInfoRepository;
+import com.cfs.jwt.entity.UserInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import java.util.Optional;
 
 @Service
 public class UserInfoService implements UserDetailsService {
@@ -21,7 +26,7 @@ public class UserInfoService implements UserDetailsService {
 
     // Method to load user details by username (email)
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+    public UserDetails loadUserByUsername(String username) {
         // Fetch user from the database by email (username)
         Optional<UserInfo> userInfo = repository.findByEmail(username);
 
