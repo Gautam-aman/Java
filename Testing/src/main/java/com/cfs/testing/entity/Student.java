@@ -8,6 +8,11 @@ import jakarta.persistence.Id;
 @Entity
 public class Student {
 
+    public Student() {
+
+    }
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -30,6 +35,7 @@ public class Student {
     public void setId(Long id) {
         this.id = id;
     }
+
 
     public String getName() {
         return name;

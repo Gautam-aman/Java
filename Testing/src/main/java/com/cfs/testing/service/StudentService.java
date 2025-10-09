@@ -3,13 +3,18 @@ package com.cfs.testing.service;
 
 import com.cfs.testing.entity.Student;
 import com.cfs.testing.repo.StudentRepo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class StudentService {
+    public StudentService(StudentRepo studentRepo) {
+        this.studentRepo = studentRepo;
+    }
 
+    @Autowired
     private StudentRepo studentRepo;
 
     public List<Student> FindAllStudents(){
@@ -20,8 +25,8 @@ public class StudentService {
         return studentRepo.save(student);
     }
 
-    public Student deleteStudentById(Long id){
-        studentRepo.deleteById(id);
+    public void deleteStudentById(Long id){
+         studentRepo.deleteById(id);
     }
 
 }
