@@ -44,6 +44,10 @@ class Robot{
         this.flyrobot = flyrobot;
     }
 
+    void projecttion(){
+        System.out.println("Projecting robot");
+    }
+
     void walk(){
         walkrobot.walk();
     }
@@ -59,6 +63,7 @@ public class Strategy {
         Robot newRobot = new Robot(new normalwalkableRobot(), new speacialflyableRobot());
         newRobot.walk();
         newRobot.fly();
+        newRobot.projecttion();
     }
 
 
