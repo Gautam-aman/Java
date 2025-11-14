@@ -1,4 +1,65 @@
 package pattern;
 
+interface walkableRobot{
+    public void walk();
+}
+
+class normalwalkableRobot implements walkableRobot{
+    @Override
+    public void walk() {
+        System.out.println("Normal walk");
+    }
+}
+
+class speacialwalkableRobot implements walkableRobot{
+    @Override
+    public void walk() {
+        System.out.println("Speacial walk");
+    }
+}
+
+interface flyableRobot{
+    public void fly();
+}
+
+class normalflyableRobot implements flyableRobot{
+    @Override
+    public void fly() {
+        System.out.println("Normal fly");
+    }
+}
+
+class speacialflyableRobot implements flyableRobot{
+    @Override
+    public void fly() {
+        System.out.println("Speacial fly");
+    }
+}
+
+class Robot{
+    walkableRobot walkrobot;
+    flyableRobot flyrobot;
+    Robot(walkableRobot walkrobot, flyableRobot flyrobot){
+        this.walkrobot = walkrobot;
+        this.flyrobot = flyrobot;
+    }
+
+    void walk(){
+        walkrobot.walk();
+    }
+
+    void fly(){
+        flyrobot.fly();
+    }
+
+}
 public class Strategy {
+
+    public static void main(String[] args) {
+        Robot newRobot = new Robot(new normalwalkableRobot(), new speacialflyableRobot());
+        newRobot.walk();
+        newRobot.fly();
+    }
+
+
 }
