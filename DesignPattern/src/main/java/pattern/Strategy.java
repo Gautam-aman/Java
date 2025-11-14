@@ -57,10 +57,23 @@ class Robot{
     }
 
 }
+
+class companionRobot extends Robot{
+    companionRobot(walkableRobot walkrobot, flyableRobot flyrobot) {
+        super(walkrobot, flyrobot);
+    }
+
+    @Override
+    void projecttion(){
+        System.out.println("Projecting Companion robot");
+    }
+
+}
+
 public class Strategy {
 
     public static void main(String[] args) {
-        Robot newRobot = new Robot(new normalwalkableRobot(), new speacialflyableRobot());
+        Robot newRobot = new companionRobot(new normalwalkableRobot(), new speacialflyableRobot());
         newRobot.walk();
         newRobot.fly();
         newRobot.projecttion();
