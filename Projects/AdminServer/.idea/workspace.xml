@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="026c120f-c9cf-46b1-afc8-bddcacd55faf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../BookMyShow/src/main/java/com/cfs/bookmyshow/model/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookMyShow/src/main/java/com/cfs/bookmyshow/model/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/java/com/cfs/jwt/JwtApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/java/com/cfs/jwt/Repo/UserInfoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/java/com/cfs/jwt/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/java/com/cfs/jwt/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/java/com/cfs/jwt/entity/AuthRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/java/com/cfs/jwt/entity/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/java/com/cfs/jwt/filter/JwtAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/java/com/cfs/jwt/service/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/java/com/cfs/jwt/service/UserInfoDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/java/com/cfs/jwt/service/UserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JWT/src/test/java/com/cfs/jwt/JwtApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductService/src/main/java/com/cfs/productservice/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/src/main/java/com/cfs/serviceregistry/ServiceRegistryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/src/test/java/com/cfs/serviceregistry/ServiceRegistryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/second/aman.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/second/aman.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="32efXeC0zsEmxP2PwzWovkxfhHC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdminServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="AdminServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cfs.adminserver.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="026c120f-c9cf-46b1-afc8-bddcacd55faf" name="Changes" comment="" />
+      <created>1757786000550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757786000550</updated>
+      <workItem from="1757786001561" duration="1611000" />
+      <workItem from="1757849846993" duration="1000" />
+      <workItem from="1757947309571" duration="549000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

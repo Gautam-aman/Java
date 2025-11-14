@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a62e1ea4-861b-4e85-9602-b62c852b6130" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Projects/BookMyShow/src/main/java/com/cfs/bookmyshow/model/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/BookMyShow/src/main/java/com/cfs/bookmyshow/model/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/java/com/cfs/jwt/JwtApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/java/com/cfs/jwt/Repo/UserInfoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/java/com/cfs/jwt/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/java/com/cfs/jwt/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/java/com/cfs/jwt/entity/AuthRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/java/com/cfs/jwt/entity/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/java/com/cfs/jwt/filter/JwtAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/java/com/cfs/jwt/service/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/java/com/cfs/jwt/service/UserInfoDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/java/com/cfs/jwt/service/UserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/JWT/src/test/java/com/cfs/jwt/JwtApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/ProductService/src/main/java/com/cfs/productservice/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/ServiceRegistry/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/ServiceRegistry/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/ServiceRegistry/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/ServiceRegistry/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/ServiceRegistry/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/ServiceRegistry/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/ServiceRegistry/src/main/java/com/cfs/serviceregistry/ServiceRegistryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/ServiceRegistry/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/ServiceRegistry/src/test/java/com/cfs/serviceregistry/ServiceRegistryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/second/aman.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/second/aman.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="34eZSsBjTGZH0ca24vOe8qlzC86" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/rigelsmacbook/IdeaProjects",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a62e1ea4-861b-4e85-9602-b62c852b6130" name="Changes" comment="" />
+      <created>1761576000906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761576000906</updated>
+      <workItem from="1761576001984" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
