@@ -3,16 +3,20 @@ package pattern.singleton;
 
 class Single{
 
-    static Single Instance = null;
+    static Single instance = null;
     private Single(){
         System.out.println("Object Created");
     }
 
     static Single getInstance(){
-        if (Instance==null){
-            Instance=new Single();
+        if (instance == null) { // 1st check (no locking)
+            synchronized (Single.class) {
+                if (instance == null) { // 2nd check (with locking)
+                    instance = new Single();
+                }
+            }
         }
-        return Instance;
+        return instance;
     }
 }
 
