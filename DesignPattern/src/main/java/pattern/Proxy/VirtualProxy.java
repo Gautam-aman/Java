@@ -24,6 +24,7 @@ class ImageProxy implements Image{
     }
     @Override
     public void displayImage() {
+        // Lazy Loading
         if (image == null) {
             image = new RealImage(fileName);
         }
