@@ -43,6 +43,7 @@ class User{
         }
 
         public User build(){
+            // here you can check validatios
             return new User(this);
         }
     }
