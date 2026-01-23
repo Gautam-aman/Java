@@ -95,7 +95,7 @@ public class Main {
         YTchannel Chan = new YTchannel("Aman");
         YTSubs Subs = new YTSubs(Chan , "Kishan");
         Chan.subscribe(Subs);
-        Chan.uploadvideo("Aman");
+        Chan.uploadvideo("Kishan");
 
     }
 }
