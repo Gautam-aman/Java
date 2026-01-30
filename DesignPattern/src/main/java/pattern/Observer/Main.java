@@ -87,6 +87,7 @@ class YTSubs implements Subscriber{
     public void update() {
         channel.getLatestVideo();
         System.out.println(channel.getLatestVideo() + "Uploaded ");
+        System.out.println("Updated");
     }
 }
 
